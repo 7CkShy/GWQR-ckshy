@@ -1,0 +1,19 @@
+Package: GWQR
+Title: Geographically Weighted Quantile Regression
+Version: 0.1
+Description: geographically weighted quantile regression. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Authors: c(person(given = "Hilian",
+           family = "SpatLyu",
+           role = c("aut", "cre"),
+           email = "lyu.geosocial@gmail.com"))
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+LinkingTo: Rcpp, RcppArmadillo
+Imports: Rcpp, RcppArmadillo
+RoxygenNote: 7.2.1
+Depends: quantreg, lava, sp, R(>= 4.1.0)
+Suggests: cqrReg
+usethis: :use_package("quantreg")
+LazyData: true
